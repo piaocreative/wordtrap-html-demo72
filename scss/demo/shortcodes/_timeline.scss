@@ -1,0 +1,34 @@
+/*-----------------------------------------------------------------------------------
+
+	Shortcodes: timeline.scss
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Timeline Styles
+-----------------------------------------------------------------*/
+
+
+.timeline {
+    position: relative;
+
+    a {
+        color: $white;
+        display: inline-block;
+    }
+
+    &:after {
+        position: absolute;
+        top: 0.875rem;
+        display: inline-block;
+        content: "";
+        width: 100%;
+        height: 1px;
+        vertical-align: middle;
+        background-color: $white;
+    }
+
+    @include media-breakpoint-down(lg) {
+        display: none !important;
+    }
+}

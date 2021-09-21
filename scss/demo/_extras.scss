@@ -1,0 +1,167 @@
+
+/* ----------------------------------------------------------------
+
+	extras.scss
+
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Extra Styles
+-----------------------------------------------------------------*/
+.shipping-banner {
+	position: absolute;
+	left: 4.375rem;
+	top: 5.625rem;	
+}
+
+a {
+	.link-icon {
+		@include transition(all 0.3s ease-in-out);
+	}
+
+	&:hover {
+		.link-icon {
+			@include translateX(1rem);
+		}
+	}	
+}
+
+.about {
+	p {
+		font-size: 0.875rem;
+		font-family: $body-font;
+		line-height: 1.5rem;
+	}
+
+	@include media-breakpoint-down(lg) {
+		padding-left: 2rem !important;
+		padding-right: 2rem !important;
+
+		.col-lg-4 {
+			.bg-primary {
+				padding: 2rem !important;
+			}
+		}
+	}
+
+	.about-banner-content {
+		h4 {
+			font-size: 1.325rem;
+			color: #66c584;
+			font-weight: 400;
+		}
+
+		@include media-breakpoint-down(sm) {
+			.w-50 {
+				width: auto !important;
+			}
+		}
+	}
+}
+
+.about-us-link {
+	padding: 0.5rem 2.5rem;
+	background-color: $theme-color;
+	color: white;
+	text-decoration: none;
+	font-size: .75rem;
+	border-radius: 0.5rem;
+	display: inline-block;
+}
+
+.about-more {
+	position: absolute;
+	top: 0;
+	left: -6rem;
+
+	@include media-breakpoint-down(lg) {
+		left: auto;
+		right: 0;
+	}
+
+	@include media-breakpoint-down(sm) {
+		img {
+			width: 10rem;
+		}
+	}
+}
+
+.about-detail {
+	.bg-cover {
+		background-position: center center;
+		background-size: 100% 100%;
+
+		@include media-breakpoint-down(lg) {
+			background-size: cover;
+			background-color: #fdeedb;
+		}
+	}
+
+	ul {
+		width: 80%;
+		margin: auto;
+
+		li {
+			font-family: $heading-font;
+			font-weight: 500;
+			font-size: 2.1875rem;
+			padding: 7rem 3rem;
+
+			p {
+				color: #82807c;
+			}
+
+			@include media-breakpoint-down(lg) {
+				padding: 1rem 3rem;
+			}
+		}
+	}
+}
+
+
+.indicator {
+	a {
+		font-size: 1.75rem;
+	}
+}
+
+.pagenation {
+	a {
+		color: $theme-color;
+		opacity: 0.25;
+		font-size: 0.65rem;
+
+		&.active {
+			opacity: 1;
+		}
+	}
+}
+
+.sale-banner {
+	padding: 2rem;
+
+	i {
+		font-size: 1.5rem;
+	}
+
+	p {
+		color: #929699;
+		line-height: 1.2rem;
+	}
+
+	@include media-breakpoint-down(lg) {
+		padding: 1rem;
+	}
+}
+
+.go-store-link {
+	text-decoration: none;
+	background-color: $theme-color;
+	font-size: 0.75rem;
+	color: $white;
+	padding: 1rem 3.5rem;
+    border-radius: 2rem;
+    font-weight: 600;
+	font-family: $body-font;
+}
