@@ -28,14 +28,24 @@
 		font-weight: 400;
 		color: $secondary;
 	}
+}
 
-	.sub-title {
-		font-weight: 300;
-		font-size: 0.875rem;
-		color: #7f7f7f;
-		font-family: 'Inter', sans-serif;
+.breadcrumb {
+	ul {
+		li {
+			a {
+				font-weight: 300;
+				font-size: 0.875rem;
+				color: #7f7f7f;
+				font-family: 'Inter', sans-serif;
+				text-decoration: none;
 
-		div {
+				&.active {
+					color: $theme-color;
+					text-decoration: underline;
+				}
+			}
+
 			&:nth-child(1) {
 				&:after {
 					background-color: $theme-color;
@@ -49,6 +59,5 @@
 				}
 			}
 		}
-
 	}
 }

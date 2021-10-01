@@ -239,6 +239,7 @@
         position: relative;
         z-index: 1;
 		height: 35rem;
+		padding: 5rem 3rem;
 
 		.onstock {
 			display: inline-block;
@@ -258,6 +259,7 @@
 			color: #ff8fb2;
 			line-height: 1;
 			text-transform: uppercase;
+			white-space: nowrap;
 		}
 	}
 }
