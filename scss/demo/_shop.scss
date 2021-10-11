@@ -77,10 +77,6 @@
 			width: 100%;
 			border-radius: 0.75rem;
 		}
-
-		@include media-breakpoint-down(lg) {
-			width: 100% !important;
-		}
 	}
 
 	.product-details {
@@ -89,7 +85,6 @@
 
 	.product-price {
 		font-size: 1.5rem;
-		font-family: $heading-font;
 		font-weight: 500;
 		line-height: 1;
 
@@ -115,9 +110,7 @@
 	}
 
 	.product-title {
-		font-family: $heading-font;
 		font-size: 1rem;
-		font-weight: 500; 
 		line-height: 1.5;
 	}
 

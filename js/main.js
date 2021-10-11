@@ -5,7 +5,9 @@ $( document ).ready( function() {
         slidesToShow: 3,
         slidesToScroll: 1,
         dots: false,
-        arrows: false,
+        arrows: true,
+        prevArrow: $('.product-prev'),
+        nextArrow: $('.product-next'),
         responsive: [
             {
                 breakpoint: 992,
@@ -33,16 +35,6 @@ $( document ).ready( function() {
             }
         ]
     });
-
-    $(".product-prev").click(function(e) {
-        e.preventDefault();
-        $(".products").slick("slickPrev");
-    });
-
-    $(".product-next").click(function(e) {
-        e.preventDefault();
-        $(".products").slick("slickNext");
-    })
 
     var $slider = $('.products');
 

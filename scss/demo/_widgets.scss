@@ -20,16 +20,9 @@
 	position: relative;
 
 	p {
-		font-family: "Open Sans",sans-serif;
-		font-weight: 400;
-		line-height: 1.3rem!important;
+		line-height: 1.3rem;
 		color: #3a3a3a;
 		font-size: 0.75rem;
-	}
-
-	a {
-		font-family: $body-font;
-		font-weight: 400;
 	}
 
 	.widget-title {
@@ -75,12 +68,6 @@
 							padding: 0.5rem;
 							font-size: 1.25rem;
 						}
-	
-						&.contact {
-							color: $primary !important;
-							background-color: $white;
-							border-radius: 50%;
-						}
 					}
 				}
 			}
@@ -98,19 +85,13 @@
 				a {
 					font-family: $body-font;
 					font-size: 0.875rem;
-					font-weight: 400;
 					color: #919191;
-					text-decoration: none;
 
 					&:hover {
 						color: $theme-color;
 					}
 				}
 			}
-		}
-
-		@include media-breakpoint-down(lg) {
-			padding: 0 !important;
 		}
 
 		@include media-breakpoint-down(md) {
@@ -145,10 +126,10 @@
 				background-size: 80% auto;
 				background-repeat: no-repeat;
 				background-position: center;
-				border-radius: 0.5rem !important;
+				border-radius: 0.5rem;
 
 				img {
-					width: 3rem !important;
+					width: 3rem;
 				}
 			}
 		}
@@ -184,64 +165,11 @@
 		}
 	}
 
-	// Widget - feedback
-	&.widget-feedback {
-		.widget-content {
-			p {
-				letter-spacing: 0.1rem
-			}
-
-			#widget-feedback-form {
-
-				input {
-					background-color: #f9f9f9;
-					color:#d0d0d0;
-				}
-				
-				.input-group-append {
-					margin-left: -2.875rem;
-				}
-			}
-		}
-	}
-
 	&.widget-subscribe {
 		.widget-content {
 			#widget-subscribe-form {
 				.input-group-append {
 					margin-left: -1rem;
-				}
-			}
-		}
-	}
-
-	// Widget - Products
-	&.widget-products {
-		.widget-content {
-			.product {
-				display: flex;
-				align-items: center;
-				margin-bottom: 0.625rem;
-
-				.product-image {
-					flex: 1;
-					height: 8.25rem;
-					max-width: 9.75rem;
-				}
-
-				.product-details {
-					flex: 1;
-					padding: 0 1.25rem;					
-				}
-
-				.product-price {					
-					margin-bottom: 0.625rem;
-				}
-
-				.product-title {
-					a {
-						color: $white;																		
-					}					
 				}
 			}
 		}

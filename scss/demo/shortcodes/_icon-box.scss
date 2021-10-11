@@ -8,41 +8,17 @@
 /* ----------------------------------------------------------------
 	Icon Box Styles
 -----------------------------------------------------------------*/
-
-
 .icon-box {
-    display: flex;
-	align-items: center;
-	margin-bottom: 1.125rem;
-
-	.icon-wrapper {
-		min-width: 2.5rem;
-		line-height: 1;
-
-		i {
-			color: $theme-color;
-			font-size: 1.125rem;
-		}
+	p, span {
+		font-family: $heading-font;
 	}
 
-	.icon-header {
-		display: flex;
-		align-items: center;
-		line-height: 1;
+	span {
+		font-weight: 500;
+	}
 
-		h4 {
-			color: #a3a2a1;
-			font-family: $body-font;
-			font-size: 1rem;
-			font-weight: 300;
-			margin-bottom: 0;
-			min-width: 10.625rem;		
-		}
-
-		span {
-			color: $dark;
-			font-size: 1rem;
-			font-weight: 300;
-		}
+	p {
+		font-size: 1.25rem;
+		color: $dark;
 	}
 }

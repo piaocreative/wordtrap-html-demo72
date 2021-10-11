@@ -36,8 +36,6 @@
 .post-content {
 	.entry-title {
 		font-size: 1.25rem;
-		font-family: $heading-font;
-		font-weight: 500;
 		line-height: 1.5;
 	}
 
@@ -49,15 +47,12 @@
 		a {
 			font-family: $heading-font;
 			font-size: 0.875rem;
-			font-weight: 400;
-			text-decoration:none;
 			color: #979b9d;
 		}
 	}
 
 	.entry-content {
 		font-size: 0.875rem;
-		font-weight: 400;
 		color: #b1b4b6;
 		line-height: 1.5;
 	}
@@ -66,7 +61,6 @@
 		padding: 1rem 3rem;
 
 		a {
-			text-decoration: none;
 			font-size: 1.75rem;
 		}
 	}
