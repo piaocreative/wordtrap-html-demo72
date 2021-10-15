@@ -66,7 +66,7 @@
 }
 
 .product {
-	margin-bottom: 2rem;
+	margin-bottom: 1.875rem;
 	position: relative;
 	box-shadow: 0 6px 25px 3px #f1f1f1;
 
@@ -138,12 +138,7 @@
 	}
 
 	.add-to-cart {
-		padding: 1rem 1.5rem;
-		font-family: $body-font;
-		font-size: 0.75rem;
-		border-radius: 0.5rem;
 		color: #fff;
-		font-weight: 600;
 	}
 
 	.add-to-wishlist {

@@ -163,7 +163,7 @@
 #top-btns {
 	.nav-link {
 		color: #000;		
-		font-size: 1.25rem;	
+		font-size: $h5-font-size;	
 		line-height: 1;
 
 		&:hover {
@@ -246,7 +246,7 @@
 		li {
 			a {
 				font-family: $heading-font;
-				font-size: 1.25rem;
+				font-size: $h5-font-size;
 				font-weight: 500;
 				color: $dark;
 				text-decoration: none;
@@ -255,8 +255,7 @@
 
 			p {
 				font-family: $body-font;
-				font-weight: 400;
-				font-size: 0.875rem;
+				font-size: $h6-font-size;
 				color: #aeaeae;
 				line-height: 1;
 			}
