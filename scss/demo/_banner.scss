@@ -30,8 +30,4 @@
         padding-left: 4.375rem;
         padding-right: 4.375rem;
     }
-    
-    @include media-breakpoint-down(lg) {
-        height: 40rem;
-    }
 }
